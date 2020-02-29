@@ -38,6 +38,7 @@ public class BarChart {
 
     }
 
+
     @Override
     public String toString() {
         return "BarChart{" +
@@ -161,7 +162,7 @@ public class BarChart {
         private int height;
         private String backgroundColor;
 
-        private List<String> data = new ArrayList<String>();
+        private List<String> data = new ArrayList<>();
 
         private boolean displayTitle;
         private boolean displayLegend;
